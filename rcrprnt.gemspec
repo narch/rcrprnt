@@ -1,7 +1,7 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'rcrpnt'
+  s.name        = 'rcrprnt'
   s.version     = '3.3.1'
   s.summary     = 'Adds multiple site support to Spree'
   s.description = 'Multiple Spree stores on different domains - single unified backed for processing orders.'
@@ -10,7 +10,6 @@ Gem::Specification.new do |s|
   s.authors           = ['Brian Quinn', 'Roman Smirnov', 'David North', 'Nathan Williams']
   s.email             = 'nathan@nathan.la'
   s.homepage          = 'http://spreecommerce.com'
-  #s.rubyforge_project = 'spree_multi_domain'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
