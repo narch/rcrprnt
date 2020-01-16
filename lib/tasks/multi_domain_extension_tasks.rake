@@ -1,0 +1,2 @@
+namespace :rcrprnt do
+end
