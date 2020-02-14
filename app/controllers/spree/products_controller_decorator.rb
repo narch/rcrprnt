@@ -12,7 +12,7 @@ module Spree
     end
 
     def get_product_options
-      @product = Spree::Product.find_by(params[:product_id])
+      @product = Spree::Product.find_by(id: params[:product_id])
       params[:option_value_ids].delete_if {|x| x == "Please Select" }
       params[:option_value_ids] = params[:option_value_ids].map(&:to_i)
       puts params[:option_value_ids]
